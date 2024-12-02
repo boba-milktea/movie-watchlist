@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie Watchlist</title>
+  </head>
+  <body>
+    <main>
+      <section class="banner">
+        <h1>Find Your Film</h1>
+        <a href="watchlist.html" id="watchlist-btn" class="nav-link"
+          >My Watchlist</a
+        >
+      </section>
+      <div class="search-bar">
+        <div class="search-input">
+          <img src="./Assets/Search.png" />
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Blade Runner"
+          />
+        </div>
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="exploring-box">
+        <img src="./Assets/Movie-icon.png" />
+        <p class="exploring-text">Start exploring</p>
+      </div>
+      <section id="movie-list" class="movie-list"></section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
