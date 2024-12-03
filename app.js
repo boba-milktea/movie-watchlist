@@ -10,7 +10,7 @@ searchBtn.addEventListener("click", async () => {
     try {
       // Fetch the movies, return promise
       const res = await fetch(
-        `http://www.omdbapi.com/?apikey=64920f0d&s=${searchValue.value}`
+        `http://www.omdbapi.com/?apikey=${ApiKEY}&s=${searchValue.value}`
       );
       if (!res.ok) {
         throw new Error(`Response Status: ${res.status}`);
