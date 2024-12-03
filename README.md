@@ -23,10 +23,10 @@
 ### Links
 
 - Solution URL: [https://github.com/boba-milktea/movie-watchlist.git](https://github.com/boba-milktea/movie-watchlist.git)
-- Live Site URL: [Movie Watchlist Page](https://movie-watchlist-boba.netlify.app)
 
 ## My process
 
+The api key is hidden. It can be replaced by your key. 
 The 1st version completed on 2 december, 2024
 
 
